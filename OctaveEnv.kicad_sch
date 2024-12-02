@@ -1,0 +1,51 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d758546a-c7ec-4cba-b958-982db76e9349")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 25.908 25.654)
+		(size 35.052 23.368)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a22aad17-0a95-4d04-9b1c-b20b18929f3e")
+		(property "Sheetname" "PowerSupply"
+			(at 25.908 24.9424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerSupply.kicad_sch"
+			(at 25.908 49.6066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OctaveEnv"
+				(path "/d758546a-c7ec-4cba-b958-982db76e9349"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
