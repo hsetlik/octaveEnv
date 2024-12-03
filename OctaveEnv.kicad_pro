@@ -386,18 +386,6 @@
     [
       "d758546a-c7ec-4cba-b958-982db76e9349",
       "Root"
-    ],
-    [
-      "a22aad17-0a95-4d04-9b1c-b20b18929f3e",
-      "PowerSupply"
-    ],
-    [
-      "a3733627-f111-4747-a8a2-2fab75ab6d73",
-      "OctaveGen"
-    ],
-    [
-      "89c599fe-8282-41ca-9ff5-e8892a22fc93",
-      "EnvFollower"
     ]
   ],
   "text_variables": {}
