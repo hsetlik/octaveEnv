@@ -1702,225 +1702,6 @@
 				)
 			)
 		)
-		(symbol "Connector:Barrel_Jack_Switch"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.334 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Barrel_Jack_Switch"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 1.27 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "DC Barrel Jack with an internal switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "DC power barrel jack connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "BarrelJack*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Barrel_Jack_Switch_0_1"
-				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -3.302 3.175)
-					(mid -3.9343 2.54)
-					(end -3.302 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.302 3.175)
-					(mid -3.9343 2.54)
-					(end -3.302 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.286) (xy 1.905 -1.651)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 1.27 0) (xy 1.27 -2.286) (xy 0.635 -1.651)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.683 3.175)
-					(end -3.302 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Barrel_Jack_Switch_1_1"
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -4981,10 +4762,6 @@
 		(uuid "a193baba-d152-4d18-8c7a-5e965e86a9ea")
 	)
 	(no_connect
-		(at 375.412 40.64)
-		(uuid "a8242ede-0f94-46ba-bba7-91c2d4783d75")
-	)
-	(no_connect
 		(at 196.596 245.618)
 		(uuid "c02dda28-4503-494e-a758-3ecb216822e3")
 	)
@@ -5132,6 +4909,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.618 45.72) (xy 372.618 47.244)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d6c4b5a-f414-4990-b276-11c15f350afb")
+	)
+	(wire
+		(pts
 			(xy 244.348 218.948) (xy 255.524 218.948)
 		)
 		(stroke
@@ -5239,16 +5026,6 @@
 			(type default)
 		)
 		(uuid "14d758b6-8643-4186-8d2a-81ab7f0d1033")
-	)
-	(wire
-		(pts
-			(xy 375.412 38.1) (xy 378.206 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1643d4cb-34fa-402e-9a51-3a65c1ac009a")
 	)
 	(wire
 		(pts
@@ -6249,16 +6026,6 @@
 			(type default)
 		)
 		(uuid "7924a458-3b04-42c1-8179-897fc8c47fb3")
-	)
-	(wire
-		(pts
-			(xy 382.524 43.18) (xy 375.412 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79416f07-cc7d-42f1-aaec-ef30cc414787")
 	)
 	(wire
 		(pts
@@ -7562,6 +7329,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.618 43.18) (xy 382.524 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0a0c97e-ddfb-463e-923f-dfaee53cf32a")
+	)
+	(wire
+		(pts
 			(xy 378.206 189.23) (xy 378.206 190.5)
 		)
 		(stroke
@@ -8001,7 +7778,7 @@
 	)
 	(text "Wired center negative"
 		(exclude_from_sim no)
-		(at 369.57 49.276 0)
+		(at 368.046 36.068 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9577,6 +9354,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 367.538 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19f33db1-f418-4085-97df-3d90c3ab1d29")
+		(property "Reference" "J102"
+			(at 368.173 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR"
+			(at 368.173 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 367.538 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 367.538 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 367.538 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a0d3277-b324-40d1-87c9-6cd915780ef4")
+		)
+		(pin "2"
+			(uuid "8c0d68e4-0cfd-4c92-8e0c-b18931611478")
+		)
+		(instances
+			(project "OctaveEnv"
+				(path "/d758546a-c7ec-4cba-b958-982db76e9349"
+					(reference "J102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 244.348 224.282 0)
 		(unit 1)
@@ -9889,16 +9734,16 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 186.69 114.808 0)
+		(at 79.502 113.792 0)
+		(mirror x)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1b814e4f-63b8-44ee-bb55-d5b4b4a9c6a6")
 		(property "Reference" "U103"
-			(at 186.69 104.648 0)
+			(at 79.502 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9906,7 +9751,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 186.69 107.188 0)
+			(at 79.502 121.412 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9914,7 +9759,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 185.42 112.268 0)
+			(at 78.232 116.332 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9923,7 +9768,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 187.96 109.728 0)
+			(at 80.772 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9932,7 +9777,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 186.69 114.808 0)
+			(at 79.502 113.792 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10374,8 +10219,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 79.502 113.792 0)
-		(mirror x)
+		(at 186.69 114.808 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10383,7 +10227,7 @@
 		(dnp no)
 		(uuid "22d5fd92-ffea-433b-9202-ff2b13e942f5")
 		(property "Reference" "U103"
-			(at 79.502 123.698 0)
+			(at 186.69 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10391,7 +10235,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 79.502 121.158 0)
+			(at 186.69 107.442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10399,7 +10243,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 78.232 116.332 0)
+			(at 185.42 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10408,7 +10252,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 80.772 118.872 0)
+			(at 187.96 109.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10417,7 +10261,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 79.502 113.792 0)
+			(at 186.69 114.808 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11911,22 +11755,22 @@
 		(fields_autoplaced yes)
 		(uuid "451a70ac-1810-45ab-898f-20402f8c2052")
 		(property "Reference" "L101"
-			(at 380.746 144.272 90)
+			(at 380.746 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "88uH"
-			(at 380.746 146.812 90)
+		(property "Value" "68uH"
+			(at 380.746 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_NR-80xx"
+		(property "Footprint" "Inductor_SMD:L_TDK_VLS6045EX_VLS6045AF"
 			(at 380.746 150.114 0)
 			(effects
 				(font
@@ -14318,8 +14162,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 155.448 106.934 0)
-		(mirror x)
+		(at 63.754 60.198 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14327,7 +14170,7 @@
 		(dnp no)
 		(uuid "7cae00e4-d8a9-4c13-aa9d-45b3fa9ef98b")
 		(property "Reference" "U103"
-			(at 155.448 116.586 0)
+			(at 63.754 50.546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14335,7 +14178,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 155.448 114.046 0)
+			(at 63.754 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14343,7 +14186,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 154.178 109.474 0)
+			(at 62.484 57.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14352,7 +14195,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 156.718 112.014 0)
+			(at 65.024 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14361,7 +14204,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 155.448 106.934 0)
+			(at 63.754 60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14484,77 +14327,6 @@
 			(project "OctaveEnv"
 				(path "/d758546a-c7ec-4cba-b958-982db76e9349"
 					(reference "C107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Barrel_Jack_Switch")
-		(at 367.792 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7fb25348-8482-4d35-b967-dae7451513a6")
-		(property "Reference" "J102"
-			(at 367.792 32.004 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Power"
-			(at 367.792 34.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_Kycon_KLDX-0202-xC_Horizontal"
-			(at 369.062 41.656 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 369.062 41.656 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Barrel Jack with an internal switch"
-			(at 367.792 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "10e0f906-5c70-44f9-ad79-13c2ca0fad55")
-		)
-		(pin "3"
-			(uuid "de1bb88b-9b3c-400c-b0e3-ffa28d5887dd")
-		)
-		(pin "1"
-			(uuid "9fb1cedc-1bc7-4cf1-8e5a-a595f407f44f")
-		)
-		(instances
-			(project "OctaveEnv"
-				(path "/d758546a-c7ec-4cba-b958-982db76e9349"
-					(reference "J102")
 					(unit 1)
 				)
 			)
@@ -15295,16 +15067,16 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 63.754 60.198 0)
+		(at 155.448 106.934 0)
+		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "99faf823-515a-42ec-afdf-cab80a4fdde3")
 		(property "Reference" "U103"
-			(at 63.754 50.292 0)
+			(at 155.448 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15312,7 +15084,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 63.754 52.832 0)
+			(at 155.448 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15320,7 +15092,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 62.484 57.658 0)
+			(at 154.178 109.474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15329,7 +15101,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 65.024 55.118 0)
+			(at 156.718 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15338,7 +15110,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 63.754 60.198 0)
+			(at 155.448 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17132,6 +16904,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 372.618 47.244 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "beaee098-6fb2-4aed-ab21-709077b50195")
+		(property "Reference" "#PWR0102"
+			(at 372.618 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 372.618 51.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 372.618 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 372.618 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 372.618 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ca6f66a-7de6-4d6d-ad09-661a61112989")
+		)
+		(instances
+			(project "OctaveEnv"
+				(path "/d758546a-c7ec-4cba-b958-982db76e9349"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 391.922 102.362 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18547,73 +18386,6 @@
 			(project "OctaveEnv"
 				(path "/d758546a-c7ec-4cba-b958-982db76e9349"
 					(reference "R128")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 378.206 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0dbdc88-d2bb-4f47-a522-cbf3b1bcc89d")
-		(property "Reference" "#PWR0102"
-			(at 378.206 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 378.206 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 378.206 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 378.206 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 378.206 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1935cdbc-7708-4e34-af02-18aa800b5395")
-		)
-		(instances
-			(project "OctaveEnv"
-				(path "/d758546a-c7ec-4cba-b958-982db76e9349"
-					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
