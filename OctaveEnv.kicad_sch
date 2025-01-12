@@ -10923,15 +10923,15 @@
 		(fields_autoplaced yes)
 		(uuid "23ffd05b-632d-4e0e-8ac0-f821a0169e94")
 		(property "Reference" "POT103"
-			(at 59.69 154.178 90)
+			(at 59.69 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100kB"
-			(at 59.69 156.718 90)
+		(property "Value" "1MB"
+			(at 59.69 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11737,15 +11737,15 @@
 		(fields_autoplaced yes)
 		(uuid "39bb3d63-0ec0-45a9-9bb6-d989929672e9")
 		(property "Reference" "R113"
-			(at 43.434 174.498 90)
+			(at 43.434 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "22k"
-			(at 43.434 177.038 90)
+		(property "Value" "220k"
+			(at 43.434 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12818,7 +12818,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a72a28e-7bfd-47ec-8d09-e7790ea5988b")
 		(property "Reference" "R110"
-			(at 35.814 56.3879 0)
+			(at 36.83 56.3879 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12827,7 +12827,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 35.814 58.9279 0)
+			(at 36.83 58.9279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13365,7 +13365,7 @@
 		(fields_autoplaced yes)
 		(uuid "53ce4a47-0ee1-437c-b388-4af595465079")
 		(property "Reference" "POT101"
-			(at 129.032 103.1239 0)
+			(at 129.54 103.1239 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13373,8 +13373,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100kB"
-			(at 129.032 105.6639 0)
+		(property "Value" "10kB"
+			(at 129.54 105.6639 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16791,7 +16791,7 @@
 		(fields_autoplaced yes)
 		(uuid "aba6a6c7-4c80-490a-ab29-dd2e2e472baa")
 		(property "Reference" "POT104"
-			(at 261.874 77.7239 0)
+			(at 261.62 77.7239 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16799,8 +16799,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100kB"
-			(at 261.874 80.2639 0)
+		(property "Value" "50kB"
+			(at 261.62 80.2639 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20775,15 +20775,15 @@
 		(fields_autoplaced yes)
 		(uuid "fee22eab-65fc-47b1-ae36-df8e04ec809a")
 		(property "Reference" "R119"
-			(at 70.358 159.258 90)
+			(at 70.358 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "33k"
-			(at 70.358 161.798 90)
+		(property "Value" "330k"
+			(at 70.358 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1050,7 +1050,7 @@
 				)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "220k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "a430ac8d-332b-4ba9-8b51-339c46da27f1")
@@ -1263,7 +1263,7 @@
 				)
 			)
 		)
-		(property "Value" "100kB"
+		(property "Value" "10kB"
 			(at 0 9.86 90)
 			(layer "F.Fab")
 			(uuid "30c7d944-24e2-4916-a2be-80841b851da4")
@@ -2014,7 +2014,7 @@
 				)
 			)
 		)
-		(property "Value" "100kB"
+		(property "Value" "50kB"
 			(at 0 9.86 90)
 			(layer "F.Fab")
 			(uuid "6ad3686e-6c95-489c-b284-cbfb793f8f0f")
@@ -2552,7 +2552,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "330k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "10577b13-538c-4f42-860c-fceaa5a88121")
@@ -9804,7 +9804,7 @@
 				)
 			)
 		)
-		(property "Value" "100kB"
+		(property "Value" "1MB"
 			(at 0 9.86 90)
 			(layer "F.Fab")
 			(uuid "e32ec737-3894-4103-af32-374a4b9f20c0")
@@ -16064,7 +16064,7 @@
 		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
 		(property "Reference" "TP108"
-			(at 0 1.648 360)
+			(at 0 1.648 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "8529472f-170e-4849-97ce-57f85cbfc63a")
@@ -16077,7 +16077,7 @@
 			)
 		)
 		(property "Value" "SWC"
-			(at 0 -1.75 360)
+			(at 0 -1.75 0)
 			(layer "B.SilkS")
 			(uuid "e699bdac-4d57-4b0f-8146-2c6c9cc6a6ef")
 			(effects
@@ -16158,7 +16158,7 @@
 			(uuid "80c09c82-a01d-4337-a44f-72b797a28325")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "B.Fab")
 			(uuid "16c16743-76fa-4bab-b03f-c55cc3e2f4d2")
 			(effects
